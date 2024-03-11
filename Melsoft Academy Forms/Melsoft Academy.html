@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Melsoft Academy</title>
+  </head>
+  <body>
+    <h1>Faculty of Melsoft Academy</h1>
+    <h2>Survey Form</h2>
+    <form method="post">
+      <fieldset>
+        <legend>Add User</legend>
+        <label for="first name">First Name</label>
+        <input
+          type="text"
+          name="First name"
+          id="first name"
+          placeholder="first name"
+        />
+        <label for="last name">Last Name</label>
+        <input
+          type="text"
+          name="last name"
+          id="last name"
+          placeholder="last name"
+        />
+        <label for="email address">Email Address</label>
+        <input
+          type="text"
+          name="email address"
+          id="email address"
+          placeholder="email address"
+        />
+
+        <br />
+
+        <select name="Status" id="Status">
+          <option value="Student">Student</option>
+          <option value="Teacher">Teacher</option>
+          <option value="Guest">Guest</option>
+        </select>
+        <br />
+
+        <h2>Programming Languages</h2>
+        <p>Choose Your Favourite Programming Language</p>
+        <input
+          type="radio"
+          id="html"
+          name="fav Programming Language"
+          value="HTML"
+        />
+        <label for="html">HTML</label><br />
+        <input
+          type="radio"
+          id="css"
+          name="fav Programming Language"
+          value="CSS"
+        />
+        <label for="css">CSS</label><br />
+        <input
+          type="radio"
+          id="javascript"
+          name="fav Programming Language"
+          value="javascript"
+        />
+        <label for="javascript">Javascript</label>
+
+        <br />
+        <input type="text" id="info" name="additional info" value="Comments" />
+        <input type="date" />
+
+        <br />
+
+        <input type="checkbox" name="newsletter" id="newsletter" />
+        <label for="newsletter">Signup for the Newsletter</label>
+        <input type="checkbox" name="t and c" id="t and c" />
+        <label for="t and c">Agree to terms and conditions</label>
+
+        <br />
+
+        <input type="submit" />
+      </fieldset>
+    </form>
+  </body>
+</html>
